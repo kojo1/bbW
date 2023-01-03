@@ -1,0 +1,20 @@
+
+
+
+#define ECC_TIMING_RESISTANT 
+#define WC_RSA_BLINDING
+
+#define HAVE_AESGCM
+#define WOLFSSL_SHA384
+#define HAVE_CHACHA
+#define HAVE_POLY1305
+#define HAVE_AESCCM
+
+#define HAVE_ECC
+#define WOLFSSL_SP_MATH_ALL
+#define WOLFSSL_CURVE25519
+#define WOLFSSL_CURVE448
+
+#define WOLFCRYPT_ONLY
+#define NO_MD5
+#define NO_DES3
